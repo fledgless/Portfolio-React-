@@ -4,6 +4,7 @@ import App from "./App";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Apropos from "./a-propos.jsx";
 import Contact from "./contact.jsx";
+import Projets from "./projets.jsx";
 import Experiences from "./experiences.jsx";
 import Maintenance from "./maintenance.jsx";
 import "../src/styles/global.css"
@@ -17,6 +18,7 @@ root.render(
           <Route path="/a-propos" element={<Apropos />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/experiences" element={<Experiences />} />
+          <Route path="/projets" element={<Projets />} />
           <Route path="/maintenance" element={<Maintenance />} />
         </Routes>
         {/* <App /> */}
@@ -24,3 +26,4 @@ root.render(
 
   </React.StrictMode>
 );
+

@@ -1,0 +1,26 @@
+img {
+    height: 175px;
+    width: 350px;
+    display: block;
+    margin-bottom: 15px;
+    border: solid white;
+  }
+  
+  .projet {
+    margin: 3vh;
+    text-align: center;
+  }
+  
+  #projet {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+  }
+  
+  #projets {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  }

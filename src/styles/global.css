@@ -1,3 +1,110 @@
-@import url("./reset/");
 @import url("./header/");
 @import url("./footer/");
+@import url("./accueil/");
+@import url("./a-propos/");
+@import url("./experiences/");
+@import url("./projets/");
+@import url("./contact/");
+
+@font-face{
+    font-family: "Prompt";
+    src: url("/public/fonts/prompt.eot");
+    src: url("/public/fonts/prompt.eot?#iefix")format("embedded-opentype"),
+        url("/public/fonts/prompt.woff")format("woff"),
+        url("/public/fonts/prompt.woff2")format("woff2"),
+        url("/public/fonts/prompt.ttf")format("truetype"),
+        url("/public/fonts/prompt.svg#Prompt")format("svg");
+    font-weight:normal;
+    font-style:normal;
+    font-display:swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    padding: 0;
+    margin: 0;
+    min-height: 100vh;
+    min-height: calc(var(--vh, 1vh) * 100);
+}
+  
+header > nav,
+main,
+footer {
+    padding: 5px;
+}
+
+div#container {
+    display: grid;
+    min-height: 100vh;
+    /* grid-template-rows: 2fr 8fr; */
+}
+
+main {
+    background-color: black;
+}
+
+h1 {
+    margin-top: 25vh;
+    margin-bottom: 3vh;
+    font-size: 64px;
+    color: #406E8E;
+    text-align: center;
+    font-family: 'Bebas Neue';
+}
+  
+h2 {
+    margin: 15vh;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    font-size: 32px;
+    font-family: 'Bebas Neue';
+    color: #406E8E ;
+    margin-bottom: 5px;
+}
+  
+h3 {
+    font-size: 24px;
+    font-family: 'Bebas Neue';
+    color: white ;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
+
+section {
+    height: fit-content;
+    padding-top: 10vh;
+    width: 100%;
+    font-size: 16px;
+    font-family: 'Prompt';
+    color: white ;
+}
+
+@media screen and (max-width: 768px) {
+    hr {
+      display: none;
+    }
+    #a-propos,
+    #experiences {
+      display: 	flex;
+      flex-direction: column;
+    }  
+    #a-propos > p,
+    #experience {
+      margin: 15px;
+    }  
+    h2 {
+      margin-bottom: 10px;
+      text-align: center;
+    }
+    section {
+      padding-top: 3vh;
+    }
+    img {
+      height: 150px;
+      width: 300px;
+    }
+  }
+

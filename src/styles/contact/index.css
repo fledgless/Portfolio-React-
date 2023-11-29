@@ -1,0 +1,66 @@
+#contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  #contact > h2 {
+    text-align: center;
+  }
+  
+  .form { 
+    display: flex;
+    align-items: center;
+    background: #000;  
+    justify-content: center;
+    flex-direction: column;
+  } 
+  
+  .form .input_field { 
+    margin-bottom: 10px; 
+  } 
+  
+  .form
+    .input_field 
+    input[type="text"], 
+  .form textarea { 
+    border: 1px solid white; 
+    width: 100%; 
+    padding: 10px; 
+  } 
+  
+  .form textarea { 
+    resize: none; 
+    height: 80px; 
+  } 
+  
+  button { 
+    border: 0px; 
+    margin-top: 15px; 
+    padding: 10px; 
+    text-align: center; 
+    width: 100%; 
+    background: #406E8E; 
+    color: #fcfbf7; 
+    text-transform: uppercase; 
+    letter-spacing: 5px; 
+    font-weight: bold; 
+    border-radius: 25px; 
+    cursor: pointer; 
+    margin-bottom: 50px;
+  } 
+  
+  button:hover {
+    background-color: white;
+    color: #406E8E;
+  }
+  
+  #error_message { 
+    margin-bottom: 20px; 
+    width: 40%;
+    background: #406E8E; 
+    padding: 0px; 
+    text-align: center; 
+    font-size: 16px; 
+    transition: all 0.5s ease; 
+  }

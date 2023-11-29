@@ -1,6 +1,3 @@
-import Header from "../header";
-import Footer from "../footer/footer";
-
 const LayoutMaintenance = ({children}) => {
     return (
         <>

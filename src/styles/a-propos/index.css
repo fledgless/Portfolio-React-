@@ -1,0 +1,16 @@
+#paragraphe {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    text-align: justify;
+  }
+  
+#paragraphe > p {
+    margin-bottom: 10px;
+}
+  
+#a-propos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

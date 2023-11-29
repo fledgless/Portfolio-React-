@@ -1,3 +1,54 @@
-a {
-    text-decoration: none;
+header {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    background-color: #406E8E;
+    padding: 5px;
+}
+
+header > nav {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+header > nav > ul {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+}
+
+header > nav > ul > a {
+  font-size: 24px;
+  text-decoration: none;
+  font-family: "Bebas Neue";
+  color: white;
+}
+
+header > nav > i {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  header > nav > ul {
+    display: none;
+  }
+  header > nav > i {
+    display: block;
+    cursor: pointer;
+  }
+  header > nav.open {
+    position: fixed;
+    width: 100%;
+    flex-direction: column;
+    background: #406E8E;
+    top: 0;
+    left: 0;
+  }
+  header > nav.open > ul {
+    justify-content: space-around;
+    flex-direction: column;
+    display: flex;
+  }
 }
