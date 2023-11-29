@@ -21,11 +21,21 @@ const Header = () => {
       <nav>
         <i id="hamburger">hamburger</i>
         <ul>
-          <Link to="#portfolio" className="liens">accueil</Link>
-          <Link to="#a-propos" className="liens">a-propos</Link>
-          <Link to="#experiences" className="liens">expériences</Link>
-          <Link to="#projets" className="liens">projets</Link>
-          <Link to="#contact" className="liens">contact</Link>
+        <li>
+                        <a className="liens" href="#portfolio">Accueil</a>
+                    </li>
+                    <li>
+                        <a className="liens" href="#a-propos">A propos</a>
+                    </li>
+                    <li>
+                        <a className="liens" href="#experiences">Expériences</a>
+                    </li>
+                    <li>
+                        <a className="liens" href="#projets">Projets</a>
+                    </li>
+                    <li>
+                        <a className="liens" href="#contact">Contact</a>
+                    </li>
         </ul>
       </nav>
     </header>

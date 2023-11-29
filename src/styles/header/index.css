@@ -19,7 +19,7 @@ header > nav > ul {
   justify-content: space-around;
 }
 
-header > nav > ul > a {
+header > nav > ul > li > a {
   font-size: 24px;
   text-decoration: none;
   font-family: "Bebas Neue";
