@@ -1,6 +1,7 @@
 const Contact = () => {
-  function validate() { 
+  function validate(e) { 
     // récupération des forms
+    e.preventDefault();
     let name = document.querySelector("#name").value; 
     let subject = document.querySelector("#subject").value; 
     let email = document.querySelector("#email").value; 
