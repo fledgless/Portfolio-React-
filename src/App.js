@@ -7,8 +7,8 @@ import Contact from "./component/pages/contact";
 
 function App() {
   return (
-    <Layout>
-      <body>
+    <body>
+      <Layout>
         <div id="container">
           <main>
             <Accueil></Accueil>
@@ -16,11 +16,10 @@ function App() {
             <Experiences></Experiences>
             <Projets></Projets>
             <Contact></Contact>
-          
           </main>
         </div>
-      </body>
-    </Layout>
+      </Layout>
+    </body>
   );
 }
 
