@@ -1,8 +1,5 @@
 const Accueil = () => {
     return (
-        <body>
-            <div id="container">
-                <main>
                     <section id="portfolio">
                         <h1>Mon portfolio</h1>
                         <h2 class="white">Cameron Cardinal</h2>
@@ -13,9 +10,6 @@ const Accueil = () => {
                             <a target="_blank" href="mailto:cameriancardinal@gmail.com">Mail</a>
                         </div>
                     </section>
-                </main>
-            </div>
-        </body>
     );
 };
 

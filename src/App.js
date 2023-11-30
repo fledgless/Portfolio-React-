@@ -8,11 +8,18 @@ import Contact from "./component/pages/contact";
 function App() {
   return (
     <Layout>
-      <Accueil></Accueil>
-      <Apropos></Apropos>
-      <Experiences></Experiences>
-      <Projets></Projets>
-      <Contact></Contact>
+      <body>
+        <div id="container">
+          <main>
+            <Accueil></Accueil>
+            <Apropos></Apropos>
+            <Experiences></Experiences>
+            <Projets></Projets>
+            <Contact></Contact>
+          
+          </main>
+        </div>
+      </body>
     </Layout>
   );
 }

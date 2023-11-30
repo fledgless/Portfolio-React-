@@ -1,8 +1,5 @@
 const Projets = () => {
     return (
-            <body>
-                <div id="container">
-                    <main>
                         <section id="projets">
                             <h2>Projets</h2>
                             <hr width="500" size="2"/>
@@ -29,9 +26,6 @@ const Projets = () => {
                                 </div>
                                 </div>
                         </section>
-                    </main>
-                </div>
-            </body>
     );
 };
 

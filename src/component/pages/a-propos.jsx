@@ -1,8 +1,5 @@
 const Apropos = () => {
     return (
-            <body>
-                <div id="container">
-                    <main>
                         <section id="a-propos">
                             <h2>A-propos</h2>
                             <hr width="1" size="500"/>
@@ -13,9 +10,6 @@ const Apropos = () => {
                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam asperiores rem dolore blanditiis quis. Modi earum odio neque adipisci! Labore perspiciatis enim temporibus similique expedita aperiam atque omnis impedit corporis.</p>
                             </div>
                         </section>
-                    </main>
-                </div>
-            </body>
     )
 }
 

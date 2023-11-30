@@ -39,9 +39,6 @@ const Contact = () => {
     }
   }
     return (
-        <body>
-          <div id="container">
-              <main>
                 <section id="contact">
                   <h2>Contact</h2>
                   <hr width="500" size="2"/>
@@ -74,9 +71,6 @@ const Contact = () => {
                       </form> 
                   </div> 
                 </section>
-              </main>
-            </div>
-        </body>
     );
   };
   
